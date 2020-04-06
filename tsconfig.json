@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "foo-filter": [
+        "dist/foo-filter"
+      ],
+      "foo-filter/*": [
+        "dist/foo-filter/*"
+      ]
+    }
   }
 }
