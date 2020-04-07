@@ -1,5 +1,5 @@
 {
-  "name": "foo-app-lab",
+  "name": "@jribacruz-labs/foo-app-lab",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -9,7 +9,12 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "url": "git://github.com/jribacruz-labs/foo-app-lab.git"
+  },
   "dependencies": {
     "@angular/animations": "~7.1.0",
     "@angular/common": "~7.1.0",
